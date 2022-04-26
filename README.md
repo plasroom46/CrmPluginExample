@@ -15,17 +15,17 @@
 
 ![](https://i.imgur.com/sYXfoJC.jpg)
 
-1. Provision a new OOB CRM online environment
-2. [Create two new customized entities A and B.](https://www.tutorialspoint.com/microsoft_crm/microsoft_crm_entities_and_records.htm)
-a. Including all types of fields on A entity: single/multiple line textbox, datetime, lookup, etc.
-3. Put the Entities under a new area in both UCI app and Classic client - sitemap
-4.  Add a new Ribbon Button on the entity main form named "PROCEED"
-5. Implement the functionality
-a. When clicking the "PROCEED" button, save the record and alert a Yes/No dialog saying 'Are you sure to save the record" for coming the save operation.
-[6. Implement a plugin](https://www.tutorialspoint.com/microsoft_crm/microsoft_crm_plugins.htm)
-a. Following with above saving step, when saving, set the value of A field to "it's the value updated by my plugin"
-[7. Implement a workflow](https://www.tutorialspoint.com/microsoft_crm/microsoft_crm_workflow_processes.htm)
-a. After record get saved, trigger the workflow to create another Entity B record.
+- 1. Provision a new OOB CRM online environment
+- 2. [Create two new customized entities A and B.](https://www.tutorialspoint.com/microsoft_crm/microsoft_crm_entities_and_records.htm)
+  - a. Including all types of fields on A entity: single/multiple line textbox, datetime, lookup, etc.
+- 3. Put the Entities under a new area in both UCI app and Classic client - sitemap
+- 4.  Add a new Ribbon Button on the entity main form named "PROCEED"
+- 5. Implement the functionality
+  - a. When clicking the "PROCEED" button, save the record and alert a Yes/No dialog saying 'Are you sure to save the record" for coming the save operation.
+- [6. Implement a plugin](https://www.tutorialspoint.com/microsoft_crm/microsoft_crm_plugins.htm)
+  - a. Following with above saving step, when saving, set the value of A field to "it's the value updated by my plugin"
+- [7. Implement a workflow](https://www.tutorialspoint.com/microsoft_crm/microsoft_crm_workflow_processes.htm)
+  - a. After record get saved, trigger the workflow to create another Entity B record.
 
 
 ### Search
